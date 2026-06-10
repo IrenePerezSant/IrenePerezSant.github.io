@@ -4,411 +4,345 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Irene Pérez | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio de Irene Pérez, estudiante de Ingeniería de Software con proyectos de desarrollo web, backend y ciberseguridad."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="navbar">
+        <a href="#" class="brand">
+          <span class="brand-mark">IP</span>
+          <span class="brand-copy">
+            <span class="brand-text">Irene Pérez</span>
+            <span class="brand-subtext">Portfolio</span>
+          </span>
+        </a>
 
-  <header class="hero">
-    <nav class="navbar">
-      <h1>Irene Pérez</h1>
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#tecnologias">Tecnologías</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
 
-      <ul>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#tecnologias">Tecnologías</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
+    </header>
 
-    <section class="hero-content">
-      <p class="eyebrow">Ingeniería de Software · Desarrollo Web · Ciberseguridad</p>
+    <main>
+      <section id="sobre-mi" class="section intro-section">
+        <div class="section-heading">
+          <p class="section-kicker">Sobre mí</p>
+          <h2>Me interesa seguir aprendiendo y construir proyectos útiles, claros y bien cuidados.</h2>
+        </div>
 
-      <h2>Portfolio de proyectos técnicos y académicos</h2>
+        <div class="intro-grid">
+          <aside class="about-photo-card">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">irene-perez.jpg</span>
+            </div>
+            <figure class="hero-photo-frame">
+              <img
+                src="assets/img/irene-perez.jpg"
+                alt="Retrato de Irene Pérez"
+                class="hero-photo"
+              />
+            </figure>
+            <p class="hero-photo-note">Escuela Técnica Superior de Ingeniería Informática · Universidad Rey Juan Carlos</p>
+          </aside>
 
-      <p>
-        Soy Irene Pérez, estudiante de Ingeniería de Software con interés en el desarrollo
-        de aplicaciones web, backend, frontend y ciberseguridad. En este portfolio recojo
-        proyectos desarrollados durante mi formación, trabajos personales y documentación
-        técnica relacionada con análisis de seguridad.
-      </p>
-
-      <div class="hero-buttons">
-        <a href="#proyectos" class="btn primary">Ver proyectos</a>
-        <a href="assets/cv/CV_Irene_Perez.pdf" class="btn secondary" target="_blank">Ver CV</a>
-      </div>
-    </section>
-  </header>
-
-  <main>
-
-    <!-- SOBRE MÍ -->
-    <section id="sobre-mi" class="section">
-      <h2>Sobre mí</h2>
-
-      <p>
-        Soy estudiante de Ingeniería de Software, con especial interés en el desarrollo
-        de software, la seguridad web y la documentación técnica. He trabajado en proyectos
-        relacionados con aplicaciones de gestión, integración de APIs, desarrollo frontend,
-        backend, bases de datos y análisis de vulnerabilidades.
-      </p>
-
-      <p>
-        En mis proyectos intento cuidar tanto la parte funcional como la organización del
-        código, el uso de GitHub, la separación por ramas, la documentación y la claridad
-        de los requisitos.
-      </p>
-    </section>
-
-    <!-- PROYECTOS -->
-    <section id="proyectos" class="section">
-      <h2>Proyectos destacados</h2>
-
-      <p class="section-intro">
-        Algunos proyectos tienen el repositorio público. Otros se mantienen privados por
-        confidencialidad, porque contienen información académica, datos internos, evidencias
-        de seguridad o código que no debe publicarse completo.
-      </p>
-
-      <div class="projects-grid">
-
-        <!-- PROYECTO PRIVADO -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>App Inventario Merchán ETSII</h3>
-            <span class="badge private">Privado</span>
+          <div class="intro-card">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">about.md</span>
+            </div>
+            <p class="intro-lead">
+              Soy Irene Pérez, estudiante de Ingeniería de Software en la Universidad Rey
+              Juan Carlos, y disfruto especialmente los proyectos que me permiten aprender
+              mientras combino análisis, desarrollo y organización.
+            </p>
+            <p>
+              Me gusta entender bien los problemas antes de intentar resolverlos. Por eso
+              me siento cómoda tanto en la parte técnica del desarrollo como en la de
+              ordenar ideas, estructurar requisitos y hacer que un proyecto sea más claro
+              y más fácil de mantener.
+            </p>
+            <p>
+              Hasta ahora he trabajado en aplicaciones de gestión, integración de APIs,
+              frontend, backend y análisis de seguridad web. Me interesa seguir creciendo
+              en ciberseguridad, especialmente en el análisis de vulnerabilidades y en cómo
+              aplicar esa mirada al desarrollo diario para escribir software más sólido.
+            </p>
           </div>
 
+          <div class="focus-card">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">mindset.txt</span>
+            </div>
+            <p class="panel-label">Cómo trabajo</p>
+            <p class="focus-quote">
+              Intento que el código no solo funcione, sino que también sea entendible y
+              tenga una base ordenada sobre la que seguir trabajando.
+            </p>
+            <ul class="focus-points">
+              <li>Suelo prestar atención a la organización y la legibilidad del trabajo.</li>
+              <li>Valoro la documentación, la estructura del proyecto y el trabajo ordenado con GitHub.</li>
+              <li>Me interesan especialmente el desarrollo web, las APIs y la seguridad aplicada.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section">
+        <div class="section-heading">
+          <p class="section-kicker">Proyectos</p>
+          <h2>Una selección de proyectos con los que he ido aprendiendo y ganando experiencia.</h2>
+          <p class="section-intro">
+            Aquí recojo proyectos técnicos y académicos que muestran las tecnologías con
+            las que he trabajado y las áreas en las que quiero seguir creciendo.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">inventory-app.md</span>
+            </div>
+            <div class="project-header">
+              <div>
+                <p class="project-type">Gestión</p>
+                <h3>App Inventario Merchan ETSII</h3>
+              </div>
+              <span class="badge private">Privado</span>
+            </div>
+
+            <p>
+              Aplicación de gestión de inventario orientada al control de productos, stock,
+              movimientos internos y organización de material, desarrollada siguiendo una
+              forma de trabajo basada en issues, ramas feature y pull requests.
+            </p>
+
+            <ul class="project-details">
+              <li>Gestión de productos e inventario.</li>
+              <li>Organización del desarrollo mediante issues.</li>
+              <li>Uso de ramas feature y pull requests.</li>
+              <li>Preparación para dockerización y despliegue.</li>
+            </ul>
+
+            <div class="tags">
+              <span>GitHub</span>
+              <span>Docker</span>
+              <span>Gestión</span>
+              <span>Backend</span>
+            </div>
+
+            <p class="private-note">
+              El código se hará público próximamente.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">student-delegation.md</span>
+            </div>
+            <div class="project-header">
+              <div>
+                <p class="project-type">Aplicación web</p>
+                <h3>Gestión de Delegación de Estudiantes</h3>
+              </div>
+              <span class="badge private">Privado</span>
+            </div>
+
+            <p>
+              Diseño de una aplicación web en PHP/Laravel para gestionar representación
+              estudiantil, delegados, cargos, reuniones, actividades, asistencia,
+              inscripciones, sectoriales y gastos por curso académico.
+            </p>
+
+            <ul class="project-details">
+              <li>Gestión por curso académico, no por año natural.</li>
+              <li>Representantes por grupo, titulación y escuela.</li>
+              <li>Control de asistencia a reuniones y actividades.</li>
+              <li>Gestión de sectoriales, comisiones e inscripciones.</li>
+            </ul>
+
+            <div class="tags">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+              <span>CRUD</span>
+            </div>
+
+            <p class="private-note">
+              El código se hará público próximamente.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">pentesting-report.md</span>
+            </div>
+            <div class="project-header">
+              <div>
+                <p class="project-type">Ciberseguridad</p>
+                <h3>Informes de Pentesting Web</h3>
+              </div>
+              <span class="badge restricted">Documentacion privada</span>
+            </div>
+
+            <p>
+              Documentación técnica de pruebas de seguridad sobre aplicaciones web, con
+              análisis de control de acceso, sesión, subida de archivos, exposición de
+              errores, caché sensible, secretos y abuso de API.
+            </p>
+
+            <ul class="project-details">
+              <li>Clasificación de vulnerabilidades mediante CWE.</li>
+              <li>Referencia a OWASP Web Security Testing Guide.</li>
+              <li>Mapeo técnico con MITRE ATT&CK cuando aplica.</li>
+              <li>Redacción de conclusiones y evidencias de prueba.</li>
+            </ul>
+
+            <div class="tags">
+              <span>OWASP</span>
+              <span>CWE</span>
+              <span>MITRE</span>
+              <span>Burp Suite</span>
+              <span>Pentesting</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">monopoly-bank.java</span>
+            </div>
+            <div class="project-header">
+              <div>
+                <p class="project-type">Académico</p>
+                <h3>MonopolyBank</h3>
+              </div>
+              <span class="badge academic">Académico</span>
+            </div>
+
+            <p>
+              Proyecto Java orientado a objetos para simular la gestión bancaria de una
+              partida de Monopoly, trabajando con jugadores, propiedades, traducciones,
+              guardado de partidas y lógica de operaciones.
+            </p>
+
+            <ul class="project-details">
+              <li>Programación orientada a objetos.</li>
+              <li>Gestión de jugadores y propiedades.</li>
+              <li>Sistema multidioma.</li>
+              <li>Serialización y carga de partidas.</li>
+            </ul>
+
+            <div class="tags">
+              <span>Java</span>
+              <span>OOP</span>
+              <span>Serialización</span>
+              <span>Multidioma</span>
+            </div>
+
+            <p class="private-note">
+              El código se hará público próximamente.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tecnologias" class="section">
+        <div class="section-heading">
+          <p class="section-kicker">Tecnologías</p>
+          <h2>Herramientas y áreas con las que ya he trabajado en distintos contextos.</h2>
+        </div>
+
+        <div class="tech-list">
+          <span>Java</span>
+          <span>Python</span>
+          <span>PHP</span>
+          <span>Laravel</span>
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Angular</span>
+          <span>SQL</span>
+          <span>PostgreSQL</span>
+          <span>MySQL</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>GitHub Projects</span>
+          <span>Docker</span>
+          <span>REST APIs</span>
+          <span>OpenAPI</span>
+          <span>Swagger</span>
+          <span>Burp Suite</span>
+          <span>OWASP</span>
+          <span>CWE</span>
+          <span>MITRE ATT&CK</span>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact-section">
+        <div class="section-heading">
+          <p class="section-kicker">Contacto</p>
+          <h2>Si quieres saber más sobre mi trabajo o mis proyectos, puedes escribirme.</h2>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-main">
+            <div class="window-bar" aria-hidden="true">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span class="window-title">contact.sh</span>
+            </div>
           <p>
-            Aplicación de gestión de inventario orientada al control de productos,
-            stock, movimientos internos y organización de material. El proyecto se
-            ha trabajado usando issues, ramas feature, pull requests y flujo de trabajo
-            con GitHub Projects.
+            Puedes escribirme o pasar por mi perfil para conocer mejor lo que he ido haciendo.
           </p>
-
-          <ul class="project-details">
-            <li>Gestión de productos e inventario.</li>
-            <li>Organización del desarrollo mediante issues.</li>
-            <li>Uso de ramas feature y pull requests.</li>
-            <li>Preparación para dockerización y despliegue.</li>
-          </ul>
-
-          <div class="tags">
-            <span>GitHub</span>
-            <span>Docker</span>
-            <span>Gestión</span>
-            <span>Backend</span>
           </div>
 
-          <p class="private-note">
-            Repositorio privado por confidencialidad. Descripción técnica disponible en el portfolio.
-          </p>
-        </article>
-
-        <!-- PROYECTO PRIVADO / EN DESARROLLO -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Gestión de Delegación de Estudiantes</h3>
-            <span class="badge private">Privado</span>
+          <div class="contact-links">
+            <a href="https://github.com/iireeneeps012" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:ireperezsant@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
+        </div>
+      </section>
+    </main>
 
-          <p>
-            Diseño de una aplicación web en PHP/Laravel para gestionar representación
-            estudiantil, delegados, cargos, reuniones, actividades, asistencia,
-            inscripciones, sectoriales y gastos asociados a cada curso académico.
-          </p>
-
-          <ul class="project-details">
-            <li>Gestión por curso académico, no por año natural.</li>
-            <li>Representantes por grupo, titulación, escuela y órganos externos.</li>
-            <li>Control de asistencia a reuniones y actividades.</li>
-            <li>Gestión de sectoriales, comisiones e inscripciones.</li>
-          </ul>
-
-          <div class="tags">
-            <span>PHP</span>
-            <span>Laravel</span>
-            <span>MySQL</span>
-            <span>CRUD</span>
-          </div>
-
-          <p class="private-note">
-            Proyecto privado/en desarrollo. Se puede mostrar una explicación funcional y técnica sin publicar el código.
-          </p>
-        </article>
-
-        <!-- PROYECTO PRIVADO -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Proyecto de Votaciones</h3>
-            <span class="badge private">Privado</span>
-          </div>
-
-          <p>
-            Aplicación de votaciones con desarrollo de frontend, backend, entidades
-            de dominio, servicios de negocio, repositorios y estructura modular.
-            El objetivo principal es permitir gestionar procesos de votación de forma
-            organizada.
-          </p>
-
-          <ul class="project-details">
-            <li>Diseño de entidades y relaciones.</li>
-            <li>Servicios de negocio e interfaces de repositorio.</li>
-            <li>Separación entre frontend y backend.</li>
-            <li>Preparación de componentes visuales.</li>
-          </ul>
-
-          <div class="tags">
-            <span>Frontend</span>
-            <span>Backend</span>
-            <span>API</span>
-            <span>Arquitectura</span>
-          </div>
-
-          <p class="private-note">
-            Repositorio privado. Código disponible únicamente bajo solicitud.
-          </p>
-        </article>
-
-        <!-- PROYECTO SENSIBLE / CIBERSEGURIDAD -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Informes de Pentesting Web</h3>
-            <span class="badge restricted">Documentación privada</span>
-          </div>
-
-          <p>
-            Documentación técnica de pruebas de seguridad realizadas sobre aplicaciones
-            web. Incluye análisis de control de acceso, gestión de sesión, subida de
-            archivos, exposición de errores, caché de datos sensibles, secretos y abuso
-            de API.
-          </p>
-
-          <ul class="project-details">
-            <li>Clasificación de vulnerabilidades mediante CWE.</li>
-            <li>Referencia a OWASP Web Security Testing Guide.</li>
-            <li>Mapeo técnico con MITRE ATT&CK cuando aplica.</li>
-            <li>Redacción de conclusiones y evidencias de prueba.</li>
-          </ul>
-
-          <div class="tags">
-            <span>OWASP</span>
-            <span>CWE</span>
-            <span>MITRE</span>
-            <span>Burp Suite</span>
-            <span>Pentesting</span>
-          </div>
-
-          <p class="private-note">
-            No se publican evidencias, endpoints, datos internos ni capturas sensibles.
-            Solo se muestra un resumen técnico del trabajo realizado.
-          </p>
-        </article>
-
-        <!-- PROYECTO PRIVADO / API -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Integración Frontend con OpenAPI</h3>
-            <span class="badge private">Privado</span>
-          </div>
-
-          <p>
-            Trabajo de análisis e integración frontend a partir de una documentación
-            OpenAPI/Swagger. El proyecto se centra en comprender los endpoints disponibles,
-            estructurar servicios frontend y preparar la comunicación con el backend.
-          </p>
-
-          <ul class="project-details">
-            <li>Análisis de documentación Swagger.</li>
-            <li>Organización de servicios frontend.</li>
-            <li>Consumo de endpoints REST.</li>
-            <li>Separación de modelos, servicios y componentes.</li>
-          </ul>
-
-          <div class="tags">
-            <span>OpenAPI</span>
-            <span>Swagger</span>
-            <span>REST</span>
-            <span>Frontend</span>
-          </div>
-
-          <p class="private-note">
-            Repositorio privado. Se puede explicar la arquitectura y el proceso de integración.
-          </p>
-        </article>
-
-        <!-- PROYECTO ACADÉMICO -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>MonopolyBank</h3>
-            <span class="badge academic">Académico</span>
-          </div>
-
-          <p>
-            Proyecto Java orientado a objetos para simular la gestión bancaria de una
-            partida de Monopoly. Incluye jugadores, propiedades, tarjetas, traducciones,
-            guardado de partidas y lógica de operaciones.
-          </p>
-
-          <ul class="project-details">
-            <li>Programación orientada a objetos.</li>
-            <li>Gestión de jugadores y propiedades.</li>
-            <li>Sistema multidioma.</li>
-            <li>Serialización y carga de partidas.</li>
-          </ul>
-
-          <div class="tags">
-            <span>Java</span>
-            <span>OOP</span>
-            <span>Serialización</span>
-            <span>Multidioma</span>
-          </div>
-
-          <div class="project-links">
-            <a href="#" target="_blank">Ver resumen</a>
-          </div>
-        </article>
-
-        <!-- PROYECTO FRONTEND -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Interfaz de Control de Videoconferencia</h3>
-            <span class="badge public">Frontend</span>
-          </div>
-
-          <p>
-            Interfaz web responsive para el control de una sala de videoconferencia.
-            Incluye botones interactivos, control de volumen, cámara, seguimiento,
-            selección de planos, proyector y pantallas intermedias.
-          </p>
-
-          <ul class="project-details">
-            <li>Diseño responsive con HTML, CSS y Bootstrap.</li>
-            <li>Eventos dinámicos con JavaScript.</li>
-            <li>Control visual de estados ON/OFF.</li>
-            <li>Interacción con ventanas emergentes y redirecciones.</li>
-          </ul>
-
-          <div class="tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Bootstrap</span>
-          </div>
-
-          <div class="project-links">
-            <a href="#" target="_blank">Ver proyecto</a>
-          </div>
-        </article>
-
-        <!-- PROYECTO PÚBLICO EJEMPLO -->
-        <article class="project-card">
-          <div class="project-header">
-            <h3>Portfolio Personal</h3>
-            <span class="badge public">Público</span>
-          </div>
-
-          <p>
-            Página web personal publicada con GitHub Pages para recoger proyectos,
-            tecnologías, experiencia técnica y formas de contacto. El objetivo es tener
-            una carta de presentación profesional y fácil de actualizar.
-          </p>
-
-          <ul class="project-details">
-            <li>Web estática publicada con GitHub Pages.</li>
-            <li>Secciones de proyectos, tecnologías y contacto.</li>
-            <li>Diseño responsive.</li>
-            <li>Separación entre HTML, CSS y recursos.</li>
-          </ul>
-
-          <div class="tags">
-            <span>GitHub Pages</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Portfolio</span>
-          </div>
-
-          <div class="project-links">
-            <a href="https://github.com/iireeneeps012/iireeneeps012.github.io" target="_blank">
-              Ver repositorio
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- TECNOLOGÍAS -->
-    <section id="tecnologias" class="section">
-      <h2>Tecnologías</h2>
-
-      <p class="section-intro">
-        Tecnologías, herramientas y áreas que he utilizado en proyectos académicos,
-        personales y de documentación técnica.
-      </p>
-
-      <div class="tech-list">
-        <span>Java</span>
-        <span>Python</span>
-        <span>PHP</span>
-        <span>Laravel</span>
-        <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Angular</span>
-        <span>SQL</span>
-        <span>PostgreSQL</span>
-        <span>MySQL</span>
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>GitHub Projects</span>
-        <span>Docker</span>
-        <span>REST APIs</span>
-        <span>OpenAPI</span>
-        <span>Swagger</span>
-        <span>Burp Suite</span>
-        <span>OWASP</span>
-        <span>CWE</span>
-        <span>MITRE ATT&CK</span>
-      </div>
-    </section>
-
-    <!-- NOTA SOBRE REPOSITORIOS PRIVADOS -->
-    <section class="section">
-      <h2>Sobre los repositorios privados</h2>
-
-      <p>
-        Algunos proyectos no tienen enlace público al código fuente porque contienen
-        información privada, documentación académica, evidencias de pruebas de seguridad,
-        configuraciones internas o datos que no deben exponerse públicamente.
-      </p>
-
-      <p>
-        En esos casos, el portfolio incluye una descripción del proyecto, tecnologías
-        utilizadas, funcionalidades principales y una explicación general del trabajo
-        realizado, sin publicar información sensible.
-      </p>
-    </section>
-
-    <!-- CONTACTO -->
-    <section id="contacto" class="section contact">
-      <h2>Contacto</h2>
-
-      <p>
-        Puedes contactar conmigo o consultar mi perfil de GitHub.
-      </p>
-
-      <div class="contact-links">
-        <a href="https://github.com/iireeneeps012" target="_blank">GitHub</a>
-        <a href="mailto:ireperezsant@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-      </div>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>© 2026 Irene Pérez · Portfolio</p>
-  </footer>
-
+    <footer class="site-footer">
+      <p>© 2026 Irene Pérez · Portfolio</p>
+    </footer>
+  </div>
 </body>
 </html>
